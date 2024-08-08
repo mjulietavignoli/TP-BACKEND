@@ -4,6 +4,10 @@ const Tarea = new mongoose.Schema({
     nombre:{
         type:String,
         required:true,
+    },
+    isActive:{
+        type:Boolean,
+        default:true,
     }
 });
 
